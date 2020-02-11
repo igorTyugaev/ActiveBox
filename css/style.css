@@ -12,9 +12,10 @@ body {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* === HEADER === */
@@ -217,4 +218,131 @@ body {
   font-family: Raleway;
   font-size: 14px;
   font-weight: 400;
+}
+
+/* === TEAM === */
+
+.team {
+  margin: 100px 0 70px;
+}
+
+.team__inner {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.team__item {
+  width: 25%;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+.team__photo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.team__name {
+  color: #2d3033;
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.team__prof {
+  color: #e84545;
+  font-family: Raleway;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.team__text {
+  color: #6c7279;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* === SOCIAL === */
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social__item {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  text-decoration: none;
+  margin-right: 16px;
+  border: 1px solid #e8ecee;
+  background-color: #fff;
+  transition: background .1s linear;
+}
+
+.social__item:hover {
+  background-color: #e8ecee;
+}
+
+/* === REVIEWS === */
+
+.reviews {
+  background-color: #53354a;
+  overflow: hidden;
+}
+
+.reviews__item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reviews__photo {
+  width: 50%;
+  height: 500px;
+  position: relative;
+}
+
+.reviews__img {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+.reviews__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  width: 50%;
+  padding-left: 80px; 
+}
+
+.reviews__text {
+  color: #ffffff;
+  font-family: Cardo;
+  font-size: 36px;
+  font-style: italic;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.reviews__author {
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
