@@ -28,6 +28,18 @@ body {
   z-index: 1000;
 }
 
+.header.fixed {
+  position: fixed;
+  background: #333366;
+}
+
+.header.fixed .header__inner {
+  padding-top: 15px;
+   padding-bottom: 15px;
+   border-bottom: 0;
+   height: auto;
+}
+
 .header__inner {
   display: flex;
   justify-content: space-between;
@@ -35,6 +47,7 @@ body {
   padding: 35px 0;
   align-items: center;
 }
+
 
 /* === NAVIGATION === */
 
