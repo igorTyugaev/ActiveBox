@@ -20,16 +20,16 @@
       <div class="header__inner">
         <div class="header__logo"><img src="img/active-box-logo.png" alt="active-box-logo"></div>
 
-        <nav class="nav">
-          <a href="#" class="nav__link">Features</a>
-          <a href="#" class="nav__link">Works</a>
-          <a href="#" class="nav__link">Our team</a>
-          <a href="#" class="nav__link">Testimonials</a>
-          <a href="#" class="nav__link">Download</a>
+        <nav class="nav" id="nav">
+          <a href="#" class="nav__link" data-scroll="#features">Features</a>
+          <a href=" #" class="nav__link" data-scroll="#works">Works</a>
+          <a href="#" class="nav__link" data-scroll="#team">Our team</a>
+          <a href="#" class="nav__link" data-scroll="#reviews">Testimonials</a>
+          <a href="#" class="nav__link" data-scroll="#download">Download</a>
         </nav>
 
         <!-- burger -->
-        <button type="button " class="burger">
+        <button type="button " class="burger" id="navToggle">
           <span class="burger__item">????</span>
         </button>
         <!-- /.burger -->
@@ -56,7 +56,7 @@
   <!-- /Intro -->
 
   <!-- Features -->
-  <div class="container">
+  <div class="container" id="features">
     <div class="features">
       <div class="features__item">
         <img src="img/features/benefits_1.png" alt="benefits_1" class="features_icon">
@@ -101,7 +101,7 @@
   </div>
 
   <!-- Works -->
-  <div class="works">
+  <div class="works" id="works">
     <div class="works__item">
       <img src="img/works/work-1.jpg" alt="work-1" class="works__img">
       <div class="works_content">
@@ -162,7 +162,7 @@
   <!-- /Works -->
 
   <!-- Team -->
-  <div class="team">
+  <div class="team" id="team">
     <div class="container">
       <div class="team__inner">
 
@@ -257,7 +257,7 @@
   <!-- /Team -->
 
   <!-- Reviews -->
-  <div class="reviews">
+  <div class="reviews" id="reviews">
     <div class="container">
 
       <div class="reviews__item">
@@ -277,7 +277,7 @@
   <!-- /Reviews -->
 
   <!-- Download -->
-  <div class="download">
+  <div class="download" id="download">
     <div class="container">
       <h3 class="download__title">Are You Ready to Start? Download Now For Free!</h3>
       <div class="download__text">
@@ -346,7 +346,7 @@
   <!-- /Footer -->
 
   <!-- JavaScript -->
-<script src="js/main.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 

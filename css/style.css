@@ -35,9 +35,9 @@ body {
 
 .header.fixed .header__inner {
   padding-top: 15px;
-   padding-bottom: 15px;
-   border-bottom: 0;
-   height: auto;
+  padding-bottom: 15px;
+  border-bottom: 0;
+  height: auto;
 }
 
 .header__inner {
@@ -47,7 +47,6 @@ body {
   padding: 35px 0;
   align-items: center;
 }
-
 
 /* === NAVIGATION === */
 
@@ -528,6 +527,19 @@ body {
   /* === NAVIGATION === */
   .nav {
     display: none;
+    top: 100%;
+    width: 100%;
+    text-align: right;
+    flex-direction: column;
+    background-color: #333366;
+    position: absolute;
+    right: 0;
+  }
+  .nav.show {
+     display: flex;
+  }
+  .nav__link {
+    padding: 9px 15px;
   }
   /* === Features === */
   .features__item {
@@ -604,18 +616,15 @@ body {
   .download__title {
     line-height: 1.6;
   }
-
   .footer__inner {
     flex-direction: column;
     padding-top: 0;
     padding-bottom: 30px;
   }
-
   .footer__block {
     width: 100%;
     margin-top: 30px;
   }
-
   @media(max-width: 650px) {
     .intro__title {
       font-size: 21px;
